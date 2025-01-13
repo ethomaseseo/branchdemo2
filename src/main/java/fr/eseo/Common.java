@@ -2,13 +2,13 @@ package fr.eseo;
 
 public class Common {
 
-    private String nom;
+    private String nom_personneK;
     private String prenom;
-    private int age;
+    private int age_personne;
     public Common(String nom, String prenom) {
         this.nom = nom;
         this.prenom = prenom;
-        age=0;
+        age_personne=0;
 
     }
 }
