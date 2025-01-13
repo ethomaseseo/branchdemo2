@@ -4,11 +4,13 @@ public class Common {
 
     private String nom_personneK;
     private String prenom;
-    private int age_personne;
-    public Common(String nom, String prenom) {
+
+    private String adresse;
+
+    public Common(String nom, String prenom, String adresse) {
         this.nom = nom;
         this.prenom = prenom;
-        age_personne=0;
+        this.adresse = adresse;
 
     }
 }
